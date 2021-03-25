@@ -8,7 +8,7 @@ def encodeqr(data, back_color = "white", color = "black"):
     qr.make(fit=True)
 
     img = qr.make_image(fill_color = color, back_color = back_color)
-    img.save("myqrcode2.png")
+    img.save("myqrcode.png")
 
 
 def decodeqr(path):
@@ -20,5 +20,5 @@ def decodeqr(path):
 
 encodeqr("I am a good Boi!")
 
-decodeqr("myqrcode2.png")
+decodeqr("myqrcode.png")
 #during entering path for other images use double back slash or single front slash. 
