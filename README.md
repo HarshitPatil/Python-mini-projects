@@ -16,3 +16,9 @@ All the explanation of the code is withcode itself in the file.
 
 This the Countdown timer made with time module with other few main functions as divmod, :02d function from format and "\r" to print in time in one line.
 All the explanation of the code is withcode itself in the file.
+
+4. QRCode_with_python
+
+There are two functions.
+encodeqr() to encode text, link in a qrcode you can also change background color and color.
+decodeqr() to decode qrcode. you need to give path to image.The path back slash should be changed to single front slash or double back slash.
